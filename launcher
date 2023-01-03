@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+ARGS="$@"
+sbt "runMain example.distage.TestLauncher $ARGS"
