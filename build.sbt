@@ -1,6 +1,6 @@
 fork := true
 
-ThisBuild / scalaVersion := "3.2.1"
+ThisBuild / scalaVersion := "3.2.2"
 ThisBuild / scalacOptions ++= Seq(
   "-Xmax-inlines:64",
   "-Yretain-trees",
